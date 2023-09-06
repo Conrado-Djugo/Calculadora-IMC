@@ -1,0 +1,107 @@
+*{  
+    
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif
+}
+body{
+    background: linear-gradient(45deg,#8e2de2, #4a00e0) no-repeat;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{ 
+    background: white;
+    width: 350px;
+    height: 500px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column; 
+    position: relative; 
+    
+}
+
+h1{
+   position: absolute;
+   left: 54.8595px;
+}
+
+.oneMain{
+    margin-top: 85px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+input{
+    width:80px;
+    height:35px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+button{
+    margin: 15px 0;
+    height: 35px;
+    width: 35%;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 2);
+    border-color: white;
+}
+
+.imcResultado{
+    background:white;
+    width: 125px;
+    height: 35px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 2);
+    margin: 5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.avaliacaoimc{
+    background:white;
+    margin: 5px 0px;
+    width: 250px;
+    height: 55px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 1.2rem;
+    font-weight: 800;
+    text-align: center;
+   
+}
+
+.fundo{ 
+    background: rgb(19, 240, 200);
+    border-radius: 5px;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    bottom:25px;
+    z-index: 0;
+    left:25px;
+}
+
+span{
+    font-size: 20px;
+    font-weight: 700;
+}
